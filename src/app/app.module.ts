@@ -8,6 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import {MatCardModule} from '@angular/material/card';
 import { CivilizationsComponent } from './components/civilizations/civilizations.component';
 import { UnitsComponent } from './components/units/units.component';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { UnitsComponent } from './components/units/units.component';
     AppRoutingModule,
     HttpClientModule,
     MatCardModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

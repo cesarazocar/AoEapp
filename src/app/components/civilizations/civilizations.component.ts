@@ -11,10 +11,7 @@ export class CivilizationsComponent implements OnInit {
   constructor(private gameService: GameService) { }
 
   ngOnInit() {
-    this.gameService.getCivilizations().subscribe(
-      res => console.log(res),
-      err => console.error(err)
-    );
+   
   }
 
 }

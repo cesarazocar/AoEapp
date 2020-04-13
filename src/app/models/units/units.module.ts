@@ -17,16 +17,19 @@ export class Unit {
   age: string;
   created_in: string;
   cost: [];
-  build_time: number;
-  reload_time: number;
+  build_time?: number;
+  reload_time?: number;
   movement_rate: number;
   line_of_sight: number;
   hit_points: number;
-  range: number;
+  range?: number;
   attack: number;
   armor: string;
-  attack_bonus: [];
-  armor_bonus: [] ;
+  attack_bonus?: [];
+  armor_bonus?: [] ;
+  accuracy?:string;
+  search_radius?:number;
+  image?:string;
 
 }
 
